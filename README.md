@@ -42,3 +42,10 @@ Account Number	PIN	      Name	      Balance
 654321        	4321	    Jane Smith	2500.50
 admin1	        adminpin	Admin User	0.00
 The third entry is for admin login and functionality testing.
+
+
+When running the project: 
+javac -cp ".:./lib/mysql-connector-j-9.3.0.jar" -d bin src/*.java
+Then:
+java -cp "bin:./lib/mysql-connector-j-9.3.0.jar" Main
+
