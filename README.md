@@ -1,18 +1,44 @@
-## Getting Started
+# 🏦 Banking System with Database (Java + MySQL)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Project Overview
 
-## Folder Structure
+This project simulates a basic **ATM/Bank Teller interface** using **Java** and **MySQL**. It supports both **customers** and **bank administrators**, allowing them to manage bank accounts via a command-line interface.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🔑 Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 👤 Customer Options:
+- Login using account number and PIN
+- Check balance
+- Deposit money
+- Withdraw money
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🛠️ Administrator Options:
+- Create new accounts
+- Modify existing accounts (name, PIN, etc.)
+- Close accounts
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 💻 Technologies Used
+
+- Java (OOP + CLI)
+- MySQL (for persistent data storage)
+- JDBC (for database connectivity)
+- VS Code or Eclipse (IDE)
+- MySQL Connector/J (JDBC driver)
+
+---
+
+## 🗂️ Project Structure
+
+
+
+Use this data when testing or populating your database:
+
+Account Number	PIN	      Name	      Balance
+123456	        1234	    John Doe	  1000.00
+654321        	4321	    Jane Smith	2500.50
+admin1	        adminpin	Admin User	0.00
+The third entry is for admin login and functionality testing.
